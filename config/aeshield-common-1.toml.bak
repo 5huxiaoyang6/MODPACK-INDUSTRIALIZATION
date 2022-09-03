@@ -1,0 +1,20 @@
+
+#通用配置
+[general]
+	#控制生成矿物的总开关
+	ore_generate = true
+	#锡矿石
+	ore_tin = true
+	#铅矿石
+	ore_lead = true
+	#铝矿石
+	ore_aluminum = true
+	#银矿石
+	ore_silver = true
+	#锰矿石
+	ore_manganese = true
+	#钽矿石
+	ore_tantalum = true
+	#控制金属加工简单配方的总开关（板、粉等）
+	metal_processing = true
+

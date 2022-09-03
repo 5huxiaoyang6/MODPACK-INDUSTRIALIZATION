@@ -1,0 +1,21 @@
+
+["Config for ChinaCraft Mod !"]
+	#控制碧玉在玉石工作台出现的几率，如果为100，则表示百分百出现
+	JASPER = 4
+	#玉石工作台合成玉时锤子所消耗的耐久度
+	JADEWORKBENCH_CONSUME = 50
+	#控制紫玉在玉石工作台出现的几率，如果为100，则表示百分百出现
+	PURPLE_JADE = 3
+	#控制芙蓉玉在玉石工作台出现的几率，如果为100，则表示百分百出现
+	HIBISCUS_JADE = 2
+	#控制翡翠玉在玉石工作台出现的几率，如果为100，则表示百分百出现
+	JADE = 5
+	#不在炎龙大刀几率内给的物品
+	YAN_LONG_OTHER = "minecraft:iron_ingot"
+	#默认给这个
+	OTHER_JADE = "minecraft:iron_ingot"
+	#合成粉末后锤子所消耗的耐久度
+	CRAFT_POWDER_HAMMER_CONSUME = 50
+	#炎龙大刀在玉石工作台中出现的几率，如果为100，则表示百分百出现
+	YAN_LONG_BIG_KNIFE = 5
+

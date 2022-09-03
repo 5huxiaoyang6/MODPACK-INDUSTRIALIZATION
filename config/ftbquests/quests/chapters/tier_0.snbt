@@ -1,0 +1,118 @@
+{
+	id: "752B7699F44B89B0"
+	group: "0F8949D450BB3305"
+	order_index: 0
+	filename: "tier_0"
+	title: "tier 0 : 人类一败涂地"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "欢迎来到虚无之地！"
+			icon: "minecraft:end_crystal"
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "一生二，二生三，三生万物"
+			description: [
+				"你好，亲爱的朋友！你现在如何？"
+				"有没有对这里的一切而感到诧异？"
+				"不用惊慌，根据合约，这就是你以后工作的地方！"
+				"赞美伟大的科学（玄学），"
+				"能创造一个利用人的思维来产生能源的神奇方式"
+				"但是这种方式过于抽象，我们往往会采用引导思维的方式来降低生产能源的难度"
+				"公司的终极目标是生产足够的PE-BOX"
+				"然后卖给全世界，这是每一个公司员工都应该知道的"
+				"不过很少有员工真正生产出完整PE-BOX……"
+				"希望你能够如期完成任务吧~我最有潜力的新员工！"
+			]
+			id: "69627DCE59A3D0BA"
+			tasks: [{
+				id: "3CB08937E3B335F5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "066BDC3AC2E2B9A7"
+				type: "gamestage"
+				auto: "invisible"
+				stage: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["69627DCE59A3D0BA"]
+			id: "3CD75AF3C52F68C4"
+			tasks: [{
+				id: "0A960DDE34A36842"
+				type: "item"
+				item: "botania:pebble"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["69627DCE59A3D0BA"]
+			id: "3C91C3BC140187FA"
+			tasks: [
+				{
+					id: "3675AC0E38FDE5E0"
+					type: "item"
+					item: "botania:living_root"
+				}
+				{
+					id: "229408290D5A889F"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["3C91C3BC140187FA"]
+			id: "6AF0A2A1D9229300"
+			tasks: [{
+				id: "1E3FE6EC1BC3EB0F"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["3CD75AF3C52F68C4"]
+			id: "165C2F1C72C6F785"
+			tasks: [{
+				id: "70B48AB53385FCC9"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			title: "是时候来点创造性工作了"
+			icon: "minecraft:crafting_table"
+			x: 4.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "创造性的一步"
+			description: [
+				"现在，你拥有了自己第一个可以加工"
+				"相对复杂工具的工作台。"
+				"不过，这才刚刚开始"
+				"距离你建立起自己的根据地"
+				"还有很远的路要走……"
+			]
+			dependencies: [
+				"165C2F1C72C6F785"
+				"6AF0A2A1D9229300"
+			]
+			id: "773CB3081EE5F20E"
+			tasks: [{
+				id: "62B1F368137EB23F"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+	]
+}

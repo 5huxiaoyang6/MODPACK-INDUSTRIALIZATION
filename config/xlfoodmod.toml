@@ -1,0 +1,7 @@
+
+["Seed/Flower Settings"]
+	#Should XL Food Mod Seeds be Obtainable?
+	"Generate Grass" = true
+	#Should Vanilla(flavoring) Flowers be Obtainable?
+	"Generate Vanilla Flower" = true
+
